@@ -1,43 +1,40 @@
 package Lesson23;
 
-public class Test2 {
+public class Test4 {
     public static void main(String[] args) {
-        Employee2 e=new Employee2();
-        Teacher2 t=new Teacher2();
-        Employee2 t1=new Teacher2();
-        e.eat();
-        t.eat();
-        t1.eat();
-
+        Employee3 emp=new Employee3();
+        Teacher3 t=new Teacher3();
+        emp.sleep();
+        t.sleep();
+        Employee3 e=new Teacher3();
+        e.sleep();
     }
 }
 
-class Food{
+//class Food{
+//
+//}
+//class Fruits extends Food{
+//
+//}
 
-}
-class Fruits extends Food{
-
-}
-
-
-class Employee2{
+class Employee3{
     String name;
-    int age;
-    int expiriance;
     double salary=100;
     Food eat(){
         System.out.println("Employee is eating");
         Food f=new Food();
         return f;
     }
-    void sleep(){
-        System.out.println("Sleep");
+  static void sleep(){
+        System.out.println("Employee is Sleeping");
     }
 
 
 
 }
-class Teacher2 extends Employee2 {
+class Teacher3 extends Employee3 {
+    @Override
     Food eat(){
         System.out.println("Teacher is eating");
         Fruits f=new Fruits();
@@ -48,18 +45,13 @@ class Teacher2 extends Employee2 {
     void teach(){
         System.out.println("Teach");
     }
-}
-
-
-class A{
-    Employee2 objectCreation(){
-        System.out.println("ok");
-        return new Employee2();
+    static void sleep(){
+        System.out.println("Teacher is Sleeping");
     }
 }
-class B{
-    Teacher2 objectCreation(){
-        System.out.println("ok");
-        return new Teacher2();
-    }
-}
+
+//final не дает переопределить или спрятать методы
+//Так же не дает иметь наслелдников если применен к классу
+
+//final class T{}
+//class P extends T{}
