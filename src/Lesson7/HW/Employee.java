@@ -27,14 +27,11 @@ class EmployeeTest{
 }
 public class Employee{
     private Employee(int id2, String surname2, int age2){
-        id=id2;
-        surname=surname2;
-        age=age2;
+        this(id2,surname2,age2,0.0,null);
     }
 
      Employee(String surname2, int age2){
-        surname=surname2;
-        age=age2;
+        this(0,surname2,age2,0.0,null);
     }
     public Employee(int id2,String surname2, int age2,double salary2,String departament2){
         id=id2;

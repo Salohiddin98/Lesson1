@@ -3,12 +3,12 @@ package Lesson1;
 public class Lesson1 {
 
     public static void main(String[] args) {
-        System.out.println("              Р РЈР‘РђР                  ");
-        System.out.println("РњРЅРѕРіРѕ Р»РµС‚ СЂР°Р·РјС‹С€Р»СЏР» СЏ РЅР°Рґ Р¶РёР·РЅСЊСЋ Р·РµРјРЅРѕР№.");
-        System.out.println("РќРµРїРѕРЅСЏС‚РЅРѕРіРѕ РЅРµС‚ РґР»СЏ РјРµРЅСЏ РїРѕРґ Р»СѓРЅРѕР№");
-        System.out.println("РњРЅРµ РёР·РІРµСЃС‚РЅРѕ, С‡С‚Рѕ РјРЅРµ РЅРёС‡РµРіРѕ РЅРµ РёР·РІРµСЃС‚РЅРѕ");
-        System.out.println("Р’РѕС‚ РїРѕСЃР»РµРґРЅСЏСЏ РїСЂР°РІРґР°, РѕС‚РєСЂС‹С‚Р°СЏ РјРЅРѕР№.");
+        System.out.println("              РУБАИ            ");
+        System.out.println("Много лет размышлял я над жизнью земной.");
+        System.out.println("Непонятного нет для меня под луной");
+        System.out.println("Мне известно, что мне ничего не известно");
+        System.out.println("Вот последняя правда, открытая мной.");
         System.out.println();
-        System.out.println("                               Рћ.РҐР°Р№СЏРј");
+        System.out.println("                               О.Хайям");
     }
 }

@@ -31,7 +31,7 @@ public class Lesson2 {
 
         System.out.println(f2);
 
-        char g5= 300;//Значение в UNICODE (x10-система счисления)
+        char g5=300;//Значение в UNICODE (x10-система счисления)
 
         System.out.println(g5);
 

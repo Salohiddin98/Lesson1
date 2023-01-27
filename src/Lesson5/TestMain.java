@@ -2,15 +2,10 @@ package Lesson5;
 
 class Test{
     int summa(int a,int b,int c){
-        int result;
-        result=a+b+c;
-        return result;
-
+        return a+b+c;
     }
     int arif(int a1,int b1, int c1){
-        int result2;
-        result2 = summa(a1,b1,c1)/3;
-        return result2;
+        return  summa(a1,b1,c1)/3;
     }
 
 }

@@ -14,10 +14,10 @@ public class Test1 {
         a=10;
     }
     Test1(boolean b){
-        a=7;
+         a=7;
     }
 
-    public void abc(final short s/* параметр не будет возможно изменить*/){
+    public void  abc(final short s/* параметр не будет возможно изменить*/){
         final byte c;
         c=10;
         //Здесь можно обявлять значения после объявления
@@ -25,10 +25,11 @@ public class Test1 {
     }
     public static void main(String[] args) {
         Test1 t= new Test1();
-        Test1 t2= new Test1();
+        Test1 t2= new Test1(false);
 //        t.a=t.a*2; - will be error
 
         System.out.println(t.a);
+        System.out.println(t2.a);
     }
 }
 
