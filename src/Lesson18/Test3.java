@@ -18,6 +18,7 @@ public class Test3 {
         }
         System.out.println();
 
+        //ищет порядок элемента с заданным значением в отсортированном массиве
         int index1=Arrays.binarySearch(array1,3);
         System.out.println(index1);
 
